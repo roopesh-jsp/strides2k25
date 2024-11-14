@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Navbar() {
   const [hamburgerActive, setHamburgerActive] = useState(false);
@@ -8,19 +9,19 @@ export default function Navbar() {
         <h1 className="logo">LOGO.</h1>
         <ul className={`navbar_menu ${hamburgerActive ? "active" : ""}`}>
           <li>
-            <a href="#">home</a>
+            <Link to="/">Home</Link>
           </li>
 
           <li>
-            <a href="#">events</a>
+            <Link to="/events">Events</Link>
           </li>
 
           <li>
-            <a href="#">gallery</a>
+            <Link to="/gallery">gallery</Link>
           </li>
 
           <li>
-            <a href="#">about us</a>
+            <Link to="/about">about us</Link>
           </li>
         </ul>
         <div
