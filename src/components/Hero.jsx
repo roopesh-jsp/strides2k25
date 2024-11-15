@@ -4,12 +4,14 @@ import Countdown from "./Countdown";
 export default function Hero() {
   return (
     <div className="hero">
-      <div id="hero-1">
-        <h1 className="hero-1">stirdes</h1>
-        <h1 className="hero-1">stirdes</h1>
-      </div>
+      <div className="hero-bg">
+        <div id="hero-1">
+          <h1 className="hero-1">strides</h1>
+          <h1 className="hero-1">strides</h1>
+        </div>
 
-      <h1 className="hero-2">E-Artifact</h1>
+        <h1 className="hero-2">E-Artifact</h1>
+      </div>
       <div className="countdown">
         <Countdown />
       </div>
