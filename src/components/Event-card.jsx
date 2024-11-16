@@ -1,8 +1,13 @@
 import React from "react";
+import { motion, spring } from "framer-motion";
 
 export default function EventCard({ data }) {
   return (
-    <div className="events_card">
+    <motion.div
+      initial={{ scale: 0.5 }}
+      whileInView={{ scale: 1 }}
+      className="events_card"
+    >
       <div className="events_card_img">
         <img src={data.image} alt="" />
       </div>
@@ -11,8 +16,13 @@ export default function EventCard({ data }) {
         <p>{data.discription}</p>
       </div>
       <div className="register">
-        <button>register now</button>
+        <motion.button
+          whileHover={{ scale: 1.1 }}
+          transition={{ type: spring, stiffness: 600 }}
+        >
+          register now
+        </motion.button>
       </div>
-    </div>
+    </motion.div>
   );
 }

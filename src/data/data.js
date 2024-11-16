@@ -8,10 +8,11 @@ import i3 from "../assets/3.jpg";
 import i4 from "../assets/4.jpg";
 import i5 from "../assets/5.jpg";
 import i6 from "../assets/6.jpg";
+import { title } from "framer-motion/client";
 
 export const events = [
   {
-    title: "Predictive Modeling Context",
+    title: "Predictive Modeling Contest",
     discription:
       "Predictive modeling in this project aims to forecast bus demand.",
     image: img1,
@@ -40,18 +41,23 @@ export const images_1 = [
   {
     id: 1,
     img: img1,
+    title: "Predictive Modeling Contest",
   },
   {
     id: 2,
     img: img2,
+    title: "Logic Unlock",
   },
   {
     id: 3,
     img: img3,
+    title: "StartUp Pitch",
   },
   {
     id: 4,
     img: img4,
+
+    title: "Coding Battle",
   },
 ];
 

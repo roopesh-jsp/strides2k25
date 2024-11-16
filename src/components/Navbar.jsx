@@ -7,22 +7,28 @@ export default function Navbar() {
     <nav>
       <div className="navbar">
         <h1 className="logo">LOGO.</h1>
-        <ul className={`navbar_menu ${hamburgerActive ? "active" : ""}`}>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-
-          <li>
-            <Link to="/events">Events</Link>
-          </li>
-
-          <li>
-            <Link to="/gallery">gallery</Link>
-          </li>
-
-          <li>
-            <Link to="/about">about us</Link>
-          </li>
+        {hamburgerActive && (
+          <div
+            className="overlay"
+            onClick={() => setHamburgerActive(false)}
+          ></div>
+        )}
+        <ul
+          className={`navbar_menu ${hamburgerActive ? "active" : ""}`}
+          onClick={() => setHamburgerActive(false)}
+        >
+          <Link to="/">
+            <li>Home</li>
+          </Link>
+          <Link to="/events">
+            <li>Events</li>
+          </Link>
+          <Link to="/gallery">
+            <li>gallery</li>
+          </Link>
+          <Link to="/about">
+            <li>about us</li>
+          </Link>
         </ul>
         <div
           className={`hamburger ${hamburgerActive ? "ham-active" : ""}`}

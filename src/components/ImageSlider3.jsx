@@ -24,13 +24,16 @@ export default function ImageSlider3({ imgArray }) {
           <FaLessThan />
         </button>
         {imgArray.map((img) => (
-          <img
+          <div
+            className="carosuel_img"
             key={img.id}
-            src={img.img}
             style={{
               translate: `${-100 * imgIndex}%`,
             }}
-          />
+          >
+            <img src={img.img} />
+            <h3>{img.title}</h3>
+          </div>
         ))}
         <button onClick={nxtImg} style={{ right: 0 }}>
           <FaGreaterThan />

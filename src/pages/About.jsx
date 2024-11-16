@@ -10,10 +10,19 @@ import towsiq from "../assets/towsiq.jpg";
 import srujuna from "../assets/srujana.png";
 import sridevi from "../assets/Sridevi.png";
 import rajeswari from "../assets/Rajeswari.png";
+import yamuna from "../assets/yamuna.png";
+import { motion, spring } from "framer-motion";
 export default function About() {
   return (
     <div id="about">
-      <h1 className="about_heading">About us</h1>
+      <motion.h1
+        className="about_heading"
+        initial={{ x: -100 }}
+        whileInView={{ x: 0 }}
+        transition={{ type: spring, stiffness: 200 }}
+      >
+        About us
+      </motion.h1>
       <div className="about_1">
         <AboutHeadCard
           name={"Dr. A. RADHA KRISHNA"}
@@ -27,6 +36,13 @@ export default function About() {
           title="FACULTY COORDINATOR"
           role="ASST PROFESSOR"
           img={jana}
+          className="jana"
+        />
+        <AboutHeadCard
+          name={"Mrs. L. Yamnuna"}
+          title="FACULTY COORDINATOR"
+          role="ASST PROFESSOR"
+          img={yamuna}
           className="jana"
         />
       </div>
@@ -44,7 +60,11 @@ export default function About() {
           <h3>N . Sathvika</h3>
         </div>
       </div>
-      <div className="about_2">
+      <motion.div
+        className="about_2"
+        whileHover={{ scale: 0.98 }}
+        transition={{ type: spring, stiffness: 500 }}
+      >
         <h2>web developer</h2>
         <div className="about_2_1 roopesh">
           <div className="about_head_card_image sm">
@@ -52,7 +72,7 @@ export default function About() {
           </div>
           <h3>roopesh j</h3>
         </div>
-      </div>
+      </motion.div>
       <div className="about_3">
         <h2>event coordinators</h2>
         <AboutCard
