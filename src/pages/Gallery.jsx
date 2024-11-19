@@ -23,7 +23,7 @@ export default function Gallery() {
           transition={{ duration: 0.5 }}
         >
           <h2>events</h2>
-          <ImageSlider3 imgArray={images_1} />
+          <ImageSlider3 imgArray={images_1} titles={true} />
         </motion.div>
         <motion.div
           className="gallery"
@@ -32,7 +32,7 @@ export default function Gallery() {
           transition={{ duration: 0.3 }}
         >
           <h2>talent expo 2024</h2>
-          <ImageSlider3 imgArray={images_2} />
+          <ImageSlider3 imgArray={images_2} titles={false} />
         </motion.div>
       </div>
     </div>

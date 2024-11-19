@@ -63,10 +63,6 @@ export const images_1 = [
 
 export const images_2 = [
   {
-    id: 1,
-    img: i1,
-  },
-  {
     id: 2,
     img: i2,
   },
@@ -85,5 +81,9 @@ export const images_2 = [
   {
     id: 6,
     img: i6,
+  },
+  {
+    id: 1,
+    img: i1,
   },
 ];

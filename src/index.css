@@ -35,9 +35,9 @@
   /* --bg-color-3: linear-gradient(to right, #3f2b96, #a8c0ff); */
 
   --primary-color: #252a34;
-  --secondary-color: #eeeeee;
+  --secondary-color: #b9e5e8;
   --text-color: #eeeeee;
-  --bg-color: #eaeaea;
+  --bg-color: #b9e5e8;
   --bg-text-color: #e5e1da;
   /* --bg-text-color: #82c3ec; */
   --bg-color-2: #091057;
@@ -212,7 +212,7 @@ nav {
   position: relative;
   top: -30px;
   font-size: 30px;
-  color: var(--text-color);
+  color: #b9e5e8;
   /* background-color: #222; */
   margin-top: 30px;
   padding: 0px 20px;
@@ -257,10 +257,10 @@ nav {
 }
 #hero-1 .hero-1:nth-child(1) {
   color: transparent;
-  -webkit-text-stroke: 2px #eeeeee;
+  -webkit-text-stroke: 2px #b9e5e8;
 }
 #hero-1 .hero-1:nth-child(2) {
-  color: #eeeeee;
+  color: #b9e5e8;
   animation: text-animate 3s infinite linear;
 }
 
@@ -656,7 +656,7 @@ nav {
   align-items: center;
   gap: 10px;
   border: 2px solid var(--bg-color);
-  color: var(--secondary-color);
+  color: var(--bg-text-color);
   border-radius: 10px;
   overflow: hidden;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -799,7 +799,18 @@ nav {
   top: 0px;
   background-color: rgba(37, 42, 52, 0.5);
   z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.carosuel_img h3 span {
+  position: relative;
+  left: 10%;
+  width: fit-content;
+  /* background-color: #222; */
+  margin: 0 auto;
+}
+
 @media (max-width: 600px) {
   .carosuel {
     width: 400px;

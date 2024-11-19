@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaGreaterThan, FaLessThan } from "react-icons/fa";
-export default function ImageSlider3({ imgArray }) {
+export default function ImageSlider3({ imgArray, titles }) {
   const [imgIndex, setImgIndex] = useState(0);
   function prevImg() {
     setImgIndex((prev) => {
@@ -32,7 +32,11 @@ export default function ImageSlider3({ imgArray }) {
             }}
           >
             <img src={img.img} />
-            <h3>{img.title}</h3>
+            {titles && (
+              <h3>
+                <span>{img.title}</span>
+              </h3>
+            )}
           </div>
         ))}
         <button onClick={nxtImg} style={{ right: 0 }}>
