@@ -12,6 +12,7 @@ import sridevi from "../assets/Sridevi.png";
 import rajeswari from "../assets/Rajeswari.png";
 import yamuna from "../assets/yamuna.png";
 import { motion, spring } from "framer-motion";
+import laxmi from "../assets/laxmi.jpg";
 export default function About() {
   return (
     <div id="about">
@@ -101,7 +102,7 @@ export default function About() {
           faculty="Mrs. V.Anantha Lakshmi"
           stu_1="SHAIK MOHAMMED IMRAN"
           stu_2="GADUPUDI MOKSHAGNA"
-          img=""
+          img={laxmi}
         />
       </div>
       <h1 className="contact_us">contact us.</h1>

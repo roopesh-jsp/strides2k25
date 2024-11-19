@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import logo from "../assets/logo.jpg";
 
 export default function Navbar() {
   const [hamburgerActive, setHamburgerActive] = useState(false);
   return (
     <nav>
       <div className="navbar">
-        <h1 className="logo">LOGO.</h1>
+        <h1 className="logo">
+          <img src={logo} alt="" />
+        </h1>
         {hamburgerActive && (
           <div
             className="overlay"

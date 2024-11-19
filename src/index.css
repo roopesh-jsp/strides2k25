@@ -948,3 +948,13 @@ nav {
   color: var(--primary-color);
   transition: all 2s ease-in;
 }
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.logo img {
+  width: 50px;
+  border-radius: 10px;
+}
