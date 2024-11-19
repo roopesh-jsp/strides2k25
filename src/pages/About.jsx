@@ -77,7 +77,7 @@ export default function About() {
       <div className="about_3">
         <h2>event coordinators</h2>
         <AboutCard
-          title="Predictiv Modeling Context"
+          title="Predictive Modeling Context"
           faculty="Mrs. A .Srujana Jyothi"
           stu_1="KARRI SAI MANIKANTA REDDY"
           stu_2="PALACHARLA LALITHA SAHITYA"
@@ -87,7 +87,7 @@ export default function About() {
           title="Logic Unlock"
           faculty="Mrs. G. Tejasri Devi"
           stu_1="ANUSURI KISHORE"
-          stu_2="YETURI ANUSHA"
+          stu_2="YEPURI ANUSHA"
           img={sridevi}
         />
         <AboutCard

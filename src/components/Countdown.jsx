@@ -54,7 +54,7 @@ function Countdown() {
       </div>
       {done && (
         <div className="done">
-          <h1>Event is live ... </h1>
+          <h1>Event is live ... 🚀👇</h1>
         </div>
       )}
     </>

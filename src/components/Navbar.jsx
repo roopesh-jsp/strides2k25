@@ -7,9 +7,11 @@ export default function Navbar() {
   return (
     <nav>
       <div className="navbar">
-        <h1 className="logo">
-          <img src={logo} alt="" />
-        </h1>
+        <Link to="/">
+          <h1 className="logo">
+            <img src={logo} alt="" />
+          </h1>
+        </Link>
         {hamburgerActive && (
           <div
             className="overlay"

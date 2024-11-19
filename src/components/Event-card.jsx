@@ -16,12 +16,14 @@ export default function EventCard({ data }) {
         <p>{data.discription}</p>
       </div>
       <div className="register">
-        <motion.button
-          whileHover={{ scale: 1.1 }}
-          transition={{ type: spring, stiffness: 600 }}
-        >
-          register now
-        </motion.button>
+        <a href={data.link}>
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: spring, stiffness: 600 }}
+          >
+            register now
+          </motion.button>
+        </a>
       </div>
     </motion.div>
   );

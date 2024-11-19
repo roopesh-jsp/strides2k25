@@ -8,7 +8,6 @@ import i3 from "../assets/3.jpg";
 import i4 from "../assets/4.jpg";
 import i5 from "../assets/5.jpg";
 import i6 from "../assets/6.jpg";
-import { title } from "framer-motion/client";
 
 export const events = [
   {
@@ -16,24 +15,28 @@ export const events = [
     discription:
       "Predictive modeling in this project aims to forecast bus demand.",
     image: img1,
+    link: "https://forms.gle/DMnNHG3eS61tipoe9",
   },
   {
     title: "Logic Unlock",
     discription:
       "likely refers to a mechanism or process that unlocks functionality, access.",
     image: img2,
+    link: "https://forms.gle/2YqDqhXNvD63Wgny8",
   },
   {
     title: "Coding Battle",
     discription:
       "A competitive programming event where participants solve coding challenges.",
     image: img4,
+    link: "https://forms.gle/RTdx93tj5EzRjspu9",
   },
   {
     title: "StartUp Pitch",
     discription:
       "An online event platform connecting students with hands-on workshops.",
     image: img3,
+    link: "https://forms.gle/pj9Xnu4WkKfMsUty7",
   },
 ];
 
