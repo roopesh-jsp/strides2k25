@@ -2,6 +2,7 @@ import img1 from "../assets/event-1.jpg";
 import img2 from "../assets/event-2.jpg";
 import img3 from "../assets/event-3.jpg";
 import img4 from "../assets/event-4.jpg";
+import img5 from "../assets/event-5.jpg";
 import i1 from "../assets/1.jpg";
 import i2 from "../assets/2.jpg";
 import i3 from "../assets/3.jpg";
@@ -37,6 +38,13 @@ export const events = [
       "An online event platform connecting students with hands-on workshops.",
     image: img3,
     link: "https://forms.gle/pj9Xnu4WkKfMsUty7",
+  },
+  {
+    title: "Photography contest",
+    discription:
+      " Let your photos inspire and celebrate the wonders of nature.",
+    image: img5,
+    link: "https://forms.gle/VJpWACXfG7ZmembMA",
   },
 ];
 

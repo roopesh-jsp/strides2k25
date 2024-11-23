@@ -77,8 +77,8 @@ export default function About() {
       <div className="about_3">
         <h2>event coordinators</h2>
         <AboutCard
-          title="Predictive Modeling Context"
-          faculty="Mrs. A .Srujana Jyothi"
+          title="Predictive Modeling Contest"
+          faculty="Mrs. A. Srujana Jyothi"
           stu_1="KARRI SAI MANIKANTA REDDY"
           stu_2="PALACHARLA LALITHA SAHITYA"
           img={srujuna}
@@ -92,14 +92,14 @@ export default function About() {
         />
         <AboutCard
           title="Coding Battle"
-          faculty="Mrs. G. V .Rajeswari"
+          faculty="Mrs. G. V. Rajeswari"
           stu_1="BANDARU B S VEERA SAI GANESH "
           stu_2="LOKA SRI NITHYA"
           img={rajeswari}
         />
         <AboutCard
           title="Startup Pitch"
-          faculty="Mrs. V.Anantha Lakshmi"
+          faculty="Mrs. V. Anantha Lakshmi"
           stu_1="SHAIK MOHAMMED IMRAN"
           stu_2="GADUPUDI MOKSHAGNA"
           img={laxmi}
