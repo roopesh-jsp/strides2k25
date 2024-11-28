@@ -70,6 +70,12 @@ export const images_1 = [
 
     title: "Coding Battle",
   },
+  {
+    id: 5,
+    img: img5,
+
+    title: "Photography Contest",
+  },
 ];
 
 export const images_2 = [

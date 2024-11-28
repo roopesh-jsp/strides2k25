@@ -8,11 +8,10 @@ export default function Events() {
         <h1>E - artifact</h1>
         <p>
           Join us for an electrifying event featuring five thrilling online
-          contests! With a grand prize of Rs.2000 for the winner and Rs.1000 for
-          the runner-up in each competition, the stakes are high. Get ready to
-          showcase your skills and compete against the best from around the
-          globe. Don't miss this opportunity to win big and prove your prowess
-          in these exciting challenges!
+          contests! Prizes will be rewarded to the winner and runner-up in each
+          competition. Get ready to showcase your skills and compete against the
+          best from around the globe. Don't miss this opportunity to win big and
+          prove your prowess in these exciting challenges!
         </p>
       </div>
       <div className="events">
