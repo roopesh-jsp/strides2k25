@@ -15,7 +15,8 @@ export const events = [
     title: "Predictive Modeling Contest",
     discription:
       "Predictive modeling in this project aims to forecast bus demand.",
-    image: img1,
+
+    image: img4,
     link: "https://forms.gle/DMnNHG3eS61tipoe9",
   },
   {
@@ -29,7 +30,7 @@ export const events = [
     title: "Coding Battle",
     discription:
       "A competitive programming event where participants solve coding challenges.",
-    image: img4,
+    image: img1,
     link: "https://forms.gle/RTdx93tj5EzRjspu9",
   },
   {
@@ -51,7 +52,8 @@ export const events = [
 export const images_1 = [
   {
     id: 1,
-    img: img1,
+
+    img: img4,
     title: "Predictive Modeling Contest",
   },
   {
@@ -66,8 +68,8 @@ export const images_1 = [
   },
   {
     id: 4,
-    img: img4,
 
+    img: img1,
     title: "Coding Battle",
   },
   {
