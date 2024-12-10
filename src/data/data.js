@@ -17,28 +17,28 @@ export const events = [
       "Predictive modeling in this project aims to forecast bus demand.",
 
     image: img4,
-    link: "https://forms.gle/DMnNHG3eS61tipoe9",
+    link: "https://unstop.com/quiz/predictive-modelling-strides-2k25-pragati-engineering-college-pec-surampalem-1271196?lb=40JbASd&utm_medium=Share&utm_source=shortUrl",
   },
   {
     title: "Logic Unlock",
     discription:
       "likely refers to a mechanism or process that unlocks functionality, access.",
     image: img2,
-    link: "https://forms.gle/2YqDqhXNvD63Wgny8",
+    link: "https://unstop.com/o/7xKhB3L?lb=3JZUwEQ&utm_medium=Share&utm_source=shortUrl",
   },
   {
     title: "Coding Battle",
     discription:
       "A competitive programming event where participants solve coding challenges.",
     image: img1,
-    link: "https://forms.gle/RTdx93tj5EzRjspu9",
+    link: "https://unstop.com/o/AJHmQTq?lb=t87SJso&utm_medium=Share&utm_source=shortUrl",
   },
   {
     title: "StartUp Pitch",
     discription:
       "An online event platform connecting students with hands-on workshops.",
     image: img3,
-    link: "https://forms.gle/pj9Xnu4WkKfMsUty7",
+    link: "https://unstop.com/o/PYHei3G?lb=m2tbH0Jh",
   },
   {
     title: "Photography contest",
